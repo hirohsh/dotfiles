@@ -1,0 +1,29 @@
+# --- Secrets / Credentials ---
+*.pem
+*.key
+*.crt
+*.p12
+*.asc
+*.gpg
+*.env
+.env.*
+aws_credentials
+.gnupg/
+.ssh/
+.git-credentials
+
+# --- Git config (private part) ---
+.gitconfig.local
+
+# --- System / OS cache ---
+.DS_Store
+
+# --- Editor / IDE stuff ---
+.vscode/
+.idea/
+
+# --- Shell history ---
+.zsh_history
+.bash_history
+.history
+
