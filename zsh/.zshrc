@@ -11,10 +11,12 @@ alias vim="nvim"
 #--- env ---
 
 
-#--- Path ---
 
 #--- StarShip ---
 eval "$(starship init zsh)"
+
+#--- fnm ---
+eval "$(fnm env)"
 
 #--- Zsh Completions ---
 if type brew &>/dev/null; then
@@ -42,3 +44,6 @@ function ghq-cd() {
 }
 
 bindkey -s '^g' 'ghq-cd\n'
+
+#--- Path ---
+export PATH="$HOME/.cargo/bin:$PATH"

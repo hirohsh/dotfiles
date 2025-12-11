@@ -34,4 +34,5 @@ ln -sf $DOTFILES/starship/starship.toml ~/.config/starship.toml
 # font-jetbrains-mono-nerd-font 
 # wezterm 
 # neovim
-
+# ripgrep
+# fd

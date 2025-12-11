@@ -53,8 +53,8 @@ config.font = wezterm.font_with_fallback({
 config.font_size = 16
 config.adjust_window_size_when_changing_font_size = false
 
-config.window_background_opacity = 0.85
-config.macos_window_background_blur = 20
+config.window_background_opacity = 0.7
+config.macos_window_background_blur = 7
 config.text_background_opacity = 1.0
 config.window_decorations = "RESIZE"
 config.window_padding = {

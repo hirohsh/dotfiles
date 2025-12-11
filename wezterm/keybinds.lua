@@ -3,7 +3,7 @@ local act = wezterm.action
 
 return {
   keys = {
-    { key = '\'', mods = 'SUPER', action  = wezterm.action.ActivateKeyTable({ name = "leader", one_shot = true }) },
+    { key = 'Space', mods = 'CTRL', action  = wezterm.action.ActivateKeyTable({ name = "leader", one_shot = true }) },
     { key = ']', mods = 'SUPER', action = act.ActivateTabRelative(1) },
     { key = '[', mods = 'SUPER', action = act.ActivateTabRelative(-1) },
     { key = 'Enter', mods = 'SUPER', action = act.ToggleFullScreen },
