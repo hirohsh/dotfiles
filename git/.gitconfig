@@ -1,0 +1,15 @@
+[user]
+	name = hiro
+	email = 104716586+hirohsh@users.noreply.github.com
+
+[color]
+	ui = auto
+
+[alias]
+	lg = log --oneline --graph --decorate
+
+[init]
+	defaultBranch = main
+
+[include]
+	path = ~/.gitconfig.local
