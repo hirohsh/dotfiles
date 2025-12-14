@@ -115,7 +115,7 @@ format = """
 
 [git_branch]
 symbol = ' '
-truncation_length = 4
+truncation_length = 12
 truncation_symbol = ''
 style = 'bold fg:#89dceb bg:#45475a'
 format = """
