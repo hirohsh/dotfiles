@@ -5,7 +5,7 @@ return {
 	keys = {
 		{
 			key = "Space",
-			mods = "CTRL",
+			mods = "SHIFT|CTRL",
 			action = wezterm.action.ActivateKeyTable({ name = "leader", one_shot = true }),
 		},
 		{ key = "]", mods = "SUPER", action = act.ActivateTabRelative(1) },

@@ -47,3 +47,9 @@ bindkey -s '^g' 'ghq-cd\n'
 
 #--- Path ---
 export PATH="$HOME/.cargo/bin:$PATH"
+
+. "$HOME/.local/bin/env"
+
+if [[ "$PWD" == "$HOME" ]]; then
+  cd ~/workspace/
+fi
