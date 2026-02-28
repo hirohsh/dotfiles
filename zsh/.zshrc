@@ -45,6 +45,9 @@ function ghq-cd() {
 
 bindkey -s '^g' 'ghq-cd\n'
 
+# Load Copilot CLI shortcuts
+[[ -f ~/dotfiles/zsh/copilot-shortcuts.zsh ]] && source ~/dotfiles/zsh/copilot-shortcuts.zsh
+
 #--- Path ---
 export PATH="$HOME/.cargo/bin:$PATH"
 
